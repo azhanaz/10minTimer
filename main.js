@@ -16,7 +16,7 @@ const COLOR_CODES = {
     }
 };
 let min = 60;
-const TIME_LIMIT = 10 * min;
+const TIME_LIMIT = 180 * min;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
